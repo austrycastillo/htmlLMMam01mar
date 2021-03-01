@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <style>
+        /*
+        selector{propiedad:valor;}
+        */
+        body{
+            background-color: lightsalmon;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h5{
+            color: lime;
+            background-color: mediumorchid;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!--comentarios
+    h son títulos, etiquetas de bloque
+    p párrafos, etiqueta de bloque
+    strong letras en negrita, tag en línea- > <b></b>
+    em cursiva, de línea -> <i></i>
+    u subrayado
+    del tachado, de línea
+    ol, ul, li de listas, de bloque
+
+    **********CSS*******
+    1- en línea: dentro de las etiquetas html con el atributo style
+    2- interno: dentro del head de mi html, dentro de la etiqueta style
+    3- externo: archivo independiente (.css) y vincular con html (head)
+    color -> color de fuente
+    background-color-> color de fondo
+    -->
+   <h1 style="color: red;">Bienvenidos</h1>
+   <h2 style="color: #EE82EE;">Hola mundo</h2>
+   <h3 style="color: rgb(173, 255, 47);">Tercer título</h3>
+   <h4 style="color: #00abe6;">cuarto</h4>
+   <h5>quinto</h5>
+   <h6>sexto</h6>
+   <p style="background-color: lightcoral;">
+       Lorem ipsum dolor sit amet <strong> consectetur adipisicing</strong> elit. Incidunt perferendis <em> quidem recusandae quia cum aperiam </em>iusto delectus corporis voluptate.<i style="color: brown;">hola</i> Maiores adipisci <u> qui est quibusdam dolores</u> deleniti quaerat <del> aperiam atque nostrum</del>.
+   </p>
+   <p style="color: coral;">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non nesciunt impedit, sapiente error odio fugiat quia quam natus eius. Doloremque quos reiciendis asperiores odio est rem vero recusandae consequuntur.
+   </p>
+   <!--Lista ordenada -->
+   <p>
+       <strong>Comidas favoritas:</strong>
+   </p>
+   <ol type="A">
+        <li>Asado</li>
+        <li>guiso de lentejas</li>
+        <li style="color: cornflowerblue;">Pescadito</li>
+        <li>Tarta de Jamón y quedo</li>
+        <li>Arepa</li>
+        <li>Ensaladas</li>
+        <li>Pabellón</li>
+   </ol>
+   <!--ul lista no ordenada (square, circle)-->
+   <ul type="square" style="background-color: lightgreen;">
+       <li>Azul</li>
+       <li>Verde</li>
+       <li>Negro</li>
+       <li>Rosado</li>
+   </ul>
+</body>
+</html>
